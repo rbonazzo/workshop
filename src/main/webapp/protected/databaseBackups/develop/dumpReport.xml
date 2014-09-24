@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backup>
+	<date>2014-09-24 12:58:32</date>
+	<requiredTime>229</requiredTime>
+	<subfolder>develop</subfolder>
+	<componentsHistory>
+		<component code="entandoCore" date="2014-09-24 12:54:33" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="OK">
+					<table name="authgroups" />
+					<table name="authpermissions" />
+					<table name="authroles" />
+					<table name="authrolepermissions" />
+					<table name="authusers" />
+					<table name="authusergroups" />
+					<table name="authuserroles" />
+					<table name="authusershortcuts" />
+					<table name="api_oauth_consumers" />
+					<table name="api_oauth_tokens" />
+					<table name="apicatalog_methods" />
+					<table name="apicatalog_services" />
+					<table name="authuserprofiles" />
+					<table name="authuserprofilesearch" />
+					<table name="authuserprofileattrroles" />
+					<table name="actionlogrecords" />
+					<table name="actionlogrelations" />
+					<table name="actionloglikerecords" />
+				</datasource>
+				<datasource name="portDataSource" status="OK">
+					<table name="sysconfig" />
+					<table name="categories" />
+					<table name="localstrings" />
+					<table name="pagemodels" />
+					<table name="pages" />
+					<table name="widgetcatalog" />
+					<table name="widgetconfig" />
+					<table name="uniquekeys" />
+				</datasource>
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="jacms" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="OK">
+					<table name="contentmodels" />
+					<table name="contents" />
+					<table name="resources" />
+					<table name="resourcerelations" />
+					<table name="contentrelations" />
+					<table name="contentsearch" />
+					<table name="contentattributeroles" />
+					<table name="workcontentrelations" />
+					<table name="workcontentsearch" />
+					<table name="workcontentattributeroles" />
+				</datasource>
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-misc-jquery" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-misc-html5-essentials" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-widget-login_form" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-misc-less" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-misc-bootstrap" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-widget-language_choose" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-widget-search_form" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-content-generic" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-widget-navigation_bar" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+		<component code="entando-page-bootstrap-hero" date="2014-09-24 12:54:36" status="OK">
+			<schema status="OK">
+				<datasource name="servDataSource" status="NOT_AVAILABLE" />
+				<datasource name="portDataSource" status="NOT_AVAILABLE" />
+			</schema>
+			<data status="OK">
+				<datasource name="servDataSource" status="RESTORE" />
+				<datasource name="portDataSource" status="RESTORE" />
+			</data>
+			<postProcess status="NOT_AVAILABLE" />
+		</component>
+	</componentsHistory>
+	<datasource name="servDataSource">
+		<table name="actionloglikerecords" requiredTime="3" rows="0" />
+		<table name="actionlogrecords" requiredTime="6" rows="3" />
+		<table name="actionlogrelations" requiredTime="6" rows="3" />
+		<table name="api_oauth_consumers" requiredTime="4" rows="0" />
+		<table name="api_oauth_tokens" requiredTime="5" rows="0" />
+		<table name="apicatalog_methods" requiredTime="6" rows="0" />
+		<table name="apicatalog_services" requiredTime="8" rows="0" />
+		<table name="authgroups" requiredTime="3" rows="2" />
+		<table name="authpermissions" requiredTime="3" rows="10" />
+		<table name="authrolepermissions" requiredTime="3" rows="1" />
+		<table name="authroles" requiredTime="3" rows="1" />
+		<table name="authusergroups" requiredTime="4" rows="1" />
+		<table name="authuserprofileattrroles" requiredTime="5" rows="0" />
+		<table name="authuserprofiles" requiredTime="4" rows="1" />
+		<table name="authuserprofilesearch" requiredTime="6" rows="0" />
+		<table name="authuserroles" requiredTime="4" rows="1" />
+		<table name="authusers" requiredTime="4" rows="1" />
+		<table name="authusershortcuts" requiredTime="4" rows="1" />
+	</datasource>
+	<datasource name="portDataSource">
+		<table name="categories" requiredTime="3" rows="2" />
+		<table name="contentattributeroles" requiredTime="6" rows="23" />
+		<table name="contentmodels" requiredTime="7" rows="13" />
+		<table name="contentrelations" requiredTime="5" rows="32" />
+		<table name="contents" requiredTime="12" rows="25" />
+		<table name="contentsearch" requiredTime="9" rows="56" />
+		<table name="localstrings" requiredTime="19" rows="294" />
+		<table name="pagemodels" requiredTime="4" rows="13" />
+		<table name="pages" requiredTime="4" rows="12" />
+		<table name="resourcerelations" requiredTime="5" rows="0" />
+		<table name="resources" requiredTime="5" rows="3" />
+		<table name="sysconfig" requiredTime="5" rows="7" />
+		<table name="uniquekeys" requiredTime="3" rows="1" />
+		<table name="widgetcatalog" requiredTime="5" rows="23" />
+		<table name="widgetconfig" requiredTime="6" rows="39" />
+		<table name="workcontentattributeroles" requiredTime="5" rows="24" />
+		<table name="workcontentrelations" requiredTime="5" rows="0" />
+		<table name="workcontentsearch" requiredTime="9" rows="58" />
+	</datasource>
+</backup>
+
