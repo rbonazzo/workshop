@@ -28,30 +28,6 @@ INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode,
 <property key="actionPath">/ExtStr2/do/Front/Api/Resource/list.action</property>
 </properties>
 ', 1, 'free');
-INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('userprofile_editCurrentUser', '<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Edit Current User</property>
-<property key="it">Edita Utente Corrente</property>
-</properties>', NULL, NULL, 'formAction', '<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="actionPath">/ExtStr2/do/Front/CurrentUser/edit.action</property>
-</properties>', 1, NULL);
-INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('userprofile_editCurrentUser_password', '<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Edit Current User Password</property>
-<property key="it">Edita Password Utente Corrente</property>
-</properties>', NULL, NULL, 'formAction', '<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="actionPath">/ExtStr2/do/Front/CurrentUser/editPassword.action</property>
-</properties>', 1, NULL);
-INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('userprofile_editCurrentUser_profile', '<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="en">Edit Current User Profile</property>
-<property key="it">Edita Profilo Utente Corrente</property>
-</properties>', NULL, NULL, 'formAction', '<?xml version="1.0" encoding="UTF-8"?>
-<properties>
-<property key="actionPath">/ExtStr2/do/Front/CurrentUser/Profile/edit.action</property>
-</properties>', 1, NULL);
 INSERT INTO widgetcatalog (code, titles, parameters, plugincode, parenttypecode, defaultconfig, locked, maingroup) VALUES ('content_viewer', '<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="en">Contents - Publish a Content</property>

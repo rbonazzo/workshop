@@ -74,7 +74,6 @@ INSERT INTO widgetconfig (pagecode, framepos, widgetcode, config, publishedconte
 ', 'LOG9');
 INSERT INTO widgetconfig (pagecode, framepos, widgetcode, config, publishedcontent) VALUES ('profile', 2, 'unify-main-menu', NULL, NULL);
 INSERT INTO widgetconfig (pagecode, framepos, widgetcode, config, publishedcontent) VALUES ('profile', 3, 'entando-widget-navigation_breadcrumbs', NULL, NULL);
-INSERT INTO widgetconfig (pagecode, framepos, widgetcode, config, publishedcontent) VALUES ('profile', 8, 'userprofile_editCurrentUser', NULL, NULL);
 INSERT INTO widgetconfig (pagecode, framepos, widgetcode, config, publishedcontent) VALUES ('contentview', 0, 'content_viewer', '<?xml version="1.0" encoding="UTF-8"?>
 <properties>
 <property key="modelId">11000</property>
